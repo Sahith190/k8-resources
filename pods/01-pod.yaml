@@ -1,8 +1,8 @@
-apiVersion: v2
+apiVersion: v1
 kind: Pod
 metadata:
   name: simple-Pod
-  Namespace: roboshop # if we dont give specific namespace it will take default namespac
+  namespace: roboshop # if we dont give specific namespace it will take default namespac
 spec: 
   containers:
   - name: nginx-simple
